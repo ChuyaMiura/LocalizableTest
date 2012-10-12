@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76BB51C1626858C00371122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB51B1626858C00371122 /* UIKit.framework */; };
+		A76BB51E1626858C00371122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB51D1626858C00371122 /* Foundation.framework */; };
+		A76BB5201626858C00371122 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB51F1626858C00371122 /* CoreGraphics.framework */; };
+		A76BB5261626858C00371122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76BB5241626858C00371122 /* InfoPlist.strings */; };
+		A76BB5281626858C00371122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BB5271626858C00371122 /* main.m */; };
+		A76BB52C1626858C00371122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BB52B1626858C00371122 /* AppDelegate.m */; };
+		A76BB52E1626858C00371122 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A76BB52D1626858C00371122 /* Default.png */; };
+		A76BB5301626858C00371122 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76BB52F1626858C00371122 /* Default@2x.png */; };
+		A76BB5321626858C00371122 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A76BB5311626858C00371122 /* Default-568h@2x.png */; };
+		A76BB5351626858C00371122 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76BB5331626858C00371122 /* MainStoryboard_iPhone.storyboard */; };
+		A76BB5381626858C00371122 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76BB5361626858C00371122 /* MainStoryboard_iPad.storyboard */; };
+		A76BB53B1626858C00371122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BB53A1626858C00371122 /* ViewController.m */; };
+		A76BB5431626858C00371122 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB5421626858C00371122 /* SenTestingKit.framework */; };
+		A76BB5441626858C00371122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB51B1626858C00371122 /* UIKit.framework */; };
+		A76BB5451626858C00371122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BB51D1626858C00371122 /* Foundation.framework */; };
+		A76BB54D1626858C00371122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76BB54B1626858C00371122 /* InfoPlist.strings */; };
+		A76BB5501626858C00371122 /* LocalizeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BB54F1626858C00371122 /* LocalizeTestTests.m */; };
+		A76BB56216268C1000371122 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A76BB56416268C1000371122 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A76BB5461626858C00371122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76BB50E1626858C00371122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76BB5161626858C00371122;
+			remoteInfo = LocalizeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A76BB5171626858C00371122 /* LocalizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BB51B1626858C00371122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A76BB51D1626858C00371122 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A76BB51F1626858C00371122 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A76BB5231626858C00371122 /* LocalizeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeTest-Info.plist"; sourceTree = "<group>"; };
+		A76BB5251626858C00371122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76BB5271626858C00371122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A76BB5291626858C00371122 /* LocalizeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizeTest-Prefix.pch"; sourceTree = "<group>"; };
+		A76BB52A1626858C00371122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A76BB52B1626858C00371122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A76BB52D1626858C00371122 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A76BB52F1626858C00371122 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A76BB5311626858C00371122 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A76BB5341626858C00371122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A76BB5371626858C00371122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A76BB5391626858C00371122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A76BB53A1626858C00371122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A76BB5411626858C00371122 /* LocalizeTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizeTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BB5421626858C00371122 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A76BB54A1626858C00371122 /* LocalizeTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeTestTests-Info.plist"; sourceTree = "<group>"; };
+		A76BB54C1626858C00371122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76BB54E1626858C00371122 /* LocalizeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeTestTests.h; sourceTree = "<group>"; };
+		A76BB54F1626858C00371122 /* LocalizeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeTestTests.m; sourceTree = "<group>"; };
+		A76BB56316268C1000371122 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A76BB56516268EF100371122 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A76BB56616268EF100371122 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A76BB56716268EF100371122 /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A76BB56816268EF100371122 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A76BB56916268EF100371122 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76BB5141626858C00371122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB51C1626858C00371122 /* UIKit.framework in Frameworks */,
+				A76BB51E1626858C00371122 /* Foundation.framework in Frameworks */,
+				A76BB5201626858C00371122 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BB53D1626858C00371122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB5431626858C00371122 /* SenTestingKit.framework in Frameworks */,
+				A76BB5441626858C00371122 /* UIKit.framework in Frameworks */,
+				A76BB5451626858C00371122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76BB50C1626858C00371122 = {
+			isa = PBXGroup;
+			children = (
+				A76BB5211626858C00371122 /* LocalizeTest */,
+				A76BB5481626858C00371122 /* LocalizeTestTests */,
+				A76BB51A1626858C00371122 /* Frameworks */,
+				A76BB5181626858C00371122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76BB5181626858C00371122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB5171626858C00371122 /* LocalizeTest.app */,
+				A76BB5411626858C00371122 /* LocalizeTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76BB51A1626858C00371122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB51B1626858C00371122 /* UIKit.framework */,
+				A76BB51D1626858C00371122 /* Foundation.framework */,
+				A76BB51F1626858C00371122 /* CoreGraphics.framework */,
+				A76BB5421626858C00371122 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A76BB5211626858C00371122 /* LocalizeTest */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB52A1626858C00371122 /* AppDelegate.h */,
+				A76BB52B1626858C00371122 /* AppDelegate.m */,
+				A76BB5331626858C00371122 /* MainStoryboard_iPhone.storyboard */,
+				A76BB5361626858C00371122 /* MainStoryboard_iPad.storyboard */,
+				A76BB5391626858C00371122 /* ViewController.h */,
+				A76BB53A1626858C00371122 /* ViewController.m */,
+				A76BB5221626858C00371122 /* Supporting Files */,
+			);
+			path = LocalizeTest;
+			sourceTree = "<group>";
+		};
+		A76BB5221626858C00371122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB56416268C1000371122 /* Localizable.strings */,
+				A76BB5231626858C00371122 /* LocalizeTest-Info.plist */,
+				A76BB5241626858C00371122 /* InfoPlist.strings */,
+				A76BB5271626858C00371122 /* main.m */,
+				A76BB5291626858C00371122 /* LocalizeTest-Prefix.pch */,
+				A76BB52D1626858C00371122 /* Default.png */,
+				A76BB52F1626858C00371122 /* Default@2x.png */,
+				A76BB5311626858C00371122 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A76BB5481626858C00371122 /* LocalizeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB54E1626858C00371122 /* LocalizeTestTests.h */,
+				A76BB54F1626858C00371122 /* LocalizeTestTests.m */,
+				A76BB5491626858C00371122 /* Supporting Files */,
+			);
+			path = LocalizeTestTests;
+			sourceTree = "<group>";
+		};
+		A76BB5491626858C00371122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76BB54A1626858C00371122 /* LocalizeTestTests-Info.plist */,
+				A76BB54B1626858C00371122 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76BB5161626858C00371122 /* LocalizeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BB5531626858C00371122 /* Build configuration list for PBXNativeTarget "LocalizeTest" */;
+			buildPhases = (
+				A76BB5131626858C00371122 /* Sources */,
+				A76BB5141626858C00371122 /* Frameworks */,
+				A76BB5151626858C00371122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeTest;
+			productName = LocalizeTest;
+			productReference = A76BB5171626858C00371122 /* LocalizeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A76BB5401626858C00371122 /* LocalizeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BB5561626858C00371122 /* Build configuration list for PBXNativeTarget "LocalizeTestTests" */;
+			buildPhases = (
+				A76BB53C1626858C00371122 /* Sources */,
+				A76BB53D1626858C00371122 /* Frameworks */,
+				A76BB53E1626858C00371122 /* Resources */,
+				A76BB53F1626858C00371122 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76BB5471626858C00371122 /* PBXTargetDependency */,
+			);
+			name = LocalizeTestTests;
+			productName = LocalizeTestTests;
+			productReference = A76BB5411626858C00371122 /* LocalizeTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76BB50E1626858C00371122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "三浦 宙也";
+			};
+			buildConfigurationList = A76BB5111626858C00371122 /* Build configuration list for PBXProject "LocalizeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = A76BB50C1626858C00371122;
+			productRefGroup = A76BB5181626858C00371122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76BB5161626858C00371122 /* LocalizeTest */,
+				A76BB5401626858C00371122 /* LocalizeTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76BB5151626858C00371122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB5261626858C00371122 /* InfoPlist.strings in Resources */,
+				A76BB52E1626858C00371122 /* Default.png in Resources */,
+				A76BB5301626858C00371122 /* Default@2x.png in Resources */,
+				A76BB5321626858C00371122 /* Default-568h@2x.png in Resources */,
+				A76BB5351626858C00371122 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A76BB5381626858C00371122 /* MainStoryboard_iPad.storyboard in Resources */,
+				A76BB56216268C1000371122 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BB53E1626858C00371122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB54D1626858C00371122 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A76BB53F1626858C00371122 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76BB5131626858C00371122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB5281626858C00371122 /* main.m in Sources */,
+				A76BB52C1626858C00371122 /* AppDelegate.m in Sources */,
+				A76BB53B1626858C00371122 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BB53C1626858C00371122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BB5501626858C00371122 /* LocalizeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A76BB5471626858C00371122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76BB5161626858C00371122 /* LocalizeTest */;
+			targetProxy = A76BB5461626858C00371122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A76BB5241626858C00371122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BB5251626858C00371122 /* en */,
+				A76BB56816268EF100371122 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A76BB5331626858C00371122 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BB5341626858C00371122 /* en */,
+				A76BB56516268EF100371122 /* ja */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A76BB5361626858C00371122 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BB5371626858C00371122 /* en */,
+				A76BB56616268EF100371122 /* ja */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A76BB54B1626858C00371122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BB54C1626858C00371122 /* en */,
+				A76BB56916268EF100371122 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A76BB56416268C1000371122 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BB56316268C1000371122 /* en */,
+				A76BB56716268EF100371122 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76BB5511626858C00371122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A76BB5521626858C00371122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76BB5541626858C00371122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeTest/LocalizeTest-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeTest/LocalizeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A76BB5551626858C00371122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeTest/LocalizeTest-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeTest/LocalizeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A76BB5571626858C00371122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalizeTest.app/LocalizeTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeTest/LocalizeTest-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeTestTests/LocalizeTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A76BB5581626858C00371122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalizeTest.app/LocalizeTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeTest/LocalizeTest-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeTestTests/LocalizeTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76BB5111626858C00371122 /* Build configuration list for PBXProject "LocalizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BB5511626858C00371122 /* Debug */,
+				A76BB5521626858C00371122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76BB5531626858C00371122 /* Build configuration list for PBXNativeTarget "LocalizeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BB5541626858C00371122 /* Debug */,
+				A76BB5551626858C00371122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A76BB5561626858C00371122 /* Build configuration list for PBXNativeTarget "LocalizeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BB5571626858C00371122 /* Debug */,
+				A76BB5581626858C00371122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76BB50E1626858C00371122 /* Project object */;
+}
